@@ -1,0 +1,5 @@
+news_sites:
+  elespectador:
+    url: https://www.elespectador.com
+  eltiempo:
+    url: https://www.eltiempo.com
