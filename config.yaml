@@ -1,5 +1,9 @@
 news_sites:
   elespectador:
     url: https://www.elespectador.com
+    queries:
+      homepage_article_links: '.node-title h3 a'
   eltiempo:
     url: https://www.eltiempo.com
+    queries:
+      homepage_article_links: '.title-container a'
