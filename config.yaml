@@ -3,7 +3,11 @@ news_sites:
     url: https://www.elespectador.com
     queries:
       homepage_article_links: '.node-title h3 a'
+      article_body: '.node-body'
+      article_title: '.group-left h1'
   eltiempo:
     url: https://www.eltiempo.com
     queries:
       homepage_article_links: '.title-container a'
+      article_body: '.articulo-contenido'
+      article_title: '.titular h1'
